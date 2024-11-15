@@ -1,4 +1,13 @@
 ﻿  main.cpp
-  morpableFace.vcxproj -> C:\Users\songj\Documents\GitHub\morpableFace\x64\Debug\morpableFace.exe
+C:\Users\songj\OneDrive - 아주대학교\문서\GitHub\morpableFace\include\opencv2\core.hpp(1747,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\songj\OneDrive - 아주대학교\문서\GitHub\morpableFace\include\opencv2\core.hpp(1747,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\songj\OneDrive - 아주대학교\문서\GitHub\morpableFace\include\opencv2\core.hpp(1747,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\songj\OneDrive - 아주대학교\문서\GitHub\morpableFace\include\dlib\general_hash\random_hashing.h(685,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\songj\OneDrive - 아주대학교\문서\GitHub\morpableFace\include\dlib\image_transforms\morphological_operations.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+C:\Users\songj\OneDrive - 아주대학교\문서\GitHub\morpableFace\include\dlib\console_progress_indicator.h(153,28): warning C4834: discarding return value of function with [[nodiscard]] attribute
+C:\Users\songj\OneDrive - 아주대학교\문서\GitHub\morpableFace\morpableFace\main.cpp(40,31): warning C4018: '<': signed/unsigned mismatch
+C:\Users\songj\OneDrive - 아주대학교\문서\GitHub\morpableFace\include\dlib\serialize.h(524,17): warning C4834: discarding return value of function with [[nodiscard]] attribute
+  LINK : C:\Users\songj\OneDrive - 아주대학교\문서\GitHub\morpableFace\x64\Debug\morpableFace.exe not found or not built by the last incremental link; performing full link
+  morpableFace.vcxproj -> C:\Users\songj\OneDrive - 아주대학교\문서\GitHub\morpableFace\x64\Debug\morpableFace.exe
   'pwsh.exe'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
   배치 파일이 아닙니다.
