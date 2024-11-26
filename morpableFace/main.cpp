@@ -95,7 +95,7 @@ full_object_detection FindLandmark(cv_image<bgr_pixel> cimg)
 int main()
 {
     // 입력 이미지 로드
-    cv::Mat img = cv::imread("input_image.png");
+    cv::Mat img = cv::imread("input_image13.jpg");
     if (img.empty())
     {
         cerr << "Unable to load image!" << endl;
