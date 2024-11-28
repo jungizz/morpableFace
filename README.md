@@ -6,8 +6,10 @@
 하여 비용 효율적이고 신뢰할 수 있는 컨설팅 경험을 제공한다.
 
 - main branch: 입력 이미지의 색 보정 및 랜드마크 탐지
+
 ![image](https://github.com/user-attachments/assets/67c763d4-4ef2-40c4-8c21-cd72c213ed03)
 
   
 - eos branch: 랜드마크 기반 3D 얼굴 렌더링
+
 ![test3dFace](https://github.com/user-attachments/assets/63975f91-350c-477c-9498-a2a4ab354f1c)
