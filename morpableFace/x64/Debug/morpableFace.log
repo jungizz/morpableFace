@@ -1,19 +1,41 @@
-﻿dlib.lib(entropy_decoder_kernel_2.obj) : warning LNK4099: '' PDB를 'dlib.lib(entropy_decoder_kernel_2.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
-dlib.lib(base64_kernel_1.obj) : warning LNK4099: '' PDB를 'dlib.lib(base64_kernel_1.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
-dlib.lib(gui_core_kernel_1.obj) : warning LNK4099: '' PDB를 'dlib.lib(gui_core_kernel_1.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
-dlib.lib(canvas_drawing.obj) : warning LNK4099: '' PDB를 'dlib.lib(canvas_drawing.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
-dlib.lib(base_widgets.obj) : warning LNK4099: '' PDB를 'dlib.lib(base_widgets.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
-dlib.lib(widgets.obj) : warning LNK4099: '' PDB를 'dlib.lib(widgets.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
-dlib.lib(threads_kernel_shared.obj) : warning LNK4099: '' PDB를 'dlib.lib(threads_kernel_shared.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
-dlib.lib(unicode.obj) : warning LNK4099: '' PDB를 'dlib.lib(unicode.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
-dlib.lib(threaded_object_extension.obj) : warning LNK4099: '' PDB를 'dlib.lib(threaded_object_extension.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
-dlib.lib(logger_kernel_1.obj) : warning LNK4099: '' PDB를 'dlib.lib(logger_kernel_1.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
-dlib.lib(fonts.obj) : warning LNK4099: '' PDB를 'dlib.lib(fonts.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
-dlib.lib(drawable.obj) : warning LNK4099: '' PDB를 'dlib.lib(drawable.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
-dlib.lib(timer.obj) : warning LNK4099: '' PDB를 'dlib.lib(timer.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
-dlib.lib(style.obj) : warning LNK4099: '' PDB를 'dlib.lib(style.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
-dlib.lib(misc_api_kernel_1.obj) : warning LNK4099: '' PDB를 'dlib.lib(misc_api_kernel_1.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
-dlib.lib(dir_nav_kernel_1.obj) : warning LNK4099: '' PDB를 'dlib.lib(dir_nav_kernel_1.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
-dlib.lib(threads_kernel_1.obj) : warning LNK4099: '' PDB를 'dlib.lib(threads_kernel_1.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
-dlib.lib(tokenizer_kernel_1.obj) : warning LNK4099: '' PDB를 'dlib.lib(tokenizer_kernel_1.obj)' 또는 ''에서 찾을 수 없습니다. 디버그 정보가 없는 것처럼 개체를 링크합니다.
+﻿  main.cpp
+C:\Users\yeon\source\repos\morpableFace\include\opencv2\core.hpp(1188,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\yeon\source\repos\morpableFace\include\opencv2\core.hpp(1188,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\yeon\source\repos\morpableFace\include\opencv2\core.hpp(1188,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\yeon\source\repos\morpableFace\include\dlib\general_hash\random_hashing.h(692,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\yeon\source\repos\morpableFace\include\dlib\image_transforms\morphological_operations.h(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\yeon\source\repos\morpableFace\include\dlib\console_progress_indicator.h(153,28): warning C4834: [[nodiscard]] 특성이 포함된 함수의 반환 값을 버리는 중입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\yeon\source\repos\morpableFace\include\opencv2\objdetect\aruco_board.hpp(1,1): warning C4819: 현재 코드 페이지(949)에서 표시할 수 없는 문자가 파일에 들어 있습니다. 데이터가 손실되지 않게 하려면 해당 파일을 유니코드 형식으로 저장하십시오.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  
+C:\Users\yeon\source\repos\morpableFace\morpableFace\main.cpp(189,31): warning C4018: '<': signed 또는 unsigned가 일치하지 않습니다.
+C:\Users\yeon\source\repos\morpableFace\include\dlib\serialize.h(524,17): warning C4834: [[nodiscard]] 특성이 포함된 함수의 반환 값을 버리는 중입니다.
+  (소스 파일 'main.cpp'을(를) 컴파일하는 중)
+  C:\Users\yeon\source\repos\morpableFace\include\dlib\serialize.h(524,17):
+  템플릿 인스턴스화 컨텍스트(가장 오래된 인스턴스화 컨텍스트)가
+  	C:\Users\yeon\source\repos\morpableFace\include\dlib\serialize.h(596,9):
+  	컴파일되는 함수 템플릿 인스턴스화 'void dlib::deserialize_floating_point<float>(T &,std::istream &)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=float
+          ]
+  	C:\Users\yeon\source\repos\morpableFace\include\dlib\serialize.h(584,17):
+  	컴파일되는 함수 템플릿 인스턴스화 'bool dlib::old_deserialize_floating_point<T>(T &,std::istream &)'에 대한 참조를 확인하세요.
+          with
+          [
+              T=float
+          ]
+  
   morpableFace.vcxproj -> C:\Users\yeon\source\repos\morpableFace\x64\Debug\morpableFace.exe
