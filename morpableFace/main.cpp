@@ -14,7 +14,7 @@
 
 #ifdef _DEBUG
 #pragma comment(lib,"opencv_world470d")
-#else 
+#else
 #pragma comment(lib,"opencv_world470")
 #endif
 
@@ -23,6 +23,40 @@ using namespace std;
 using namespace cv;
 using namespace mcc;
 using namespace ccm;
+
+int Capture() {
+    cv::VideoCapture cap(0);
+    if (!cap.isOpened()) {
+        std::cerr << "웹캠을 열 수 없습니다!" << std::endl;
+        return -1;
+    }
+
+    cv::Mat frame;
+    std::cout << "'s' 키를 눌러 사진을 찍고, ESC 키로 종료합니다." << std::endl;
+
+    while (true) {
+        // 프레임 캡처
+        cap >> frame;
+        if (frame.empty()) break;
+
+        // 프레임 보여주기
+        cv::imshow("Webcam", frame);
+
+        // 키 입력 대기
+        char key = cv::waitKey(1);
+        if (key == 's') {
+            cv::imwrite("captured_image.jpg", frame);
+            std::cout << "사진을 저장했습니다: captured_image.jpg" << std::endl;
+        }
+        else if (key == 27) { // ESC 키로 종료
+            break;
+        }
+    }
+
+    cap.release();
+    cv::destroyAllWindows();
+    return 0;
+}
 
 void colorCalibration(cv::Mat img, cv::Mat& out_img) {
     cv::Mat imgCopy = img.clone();
@@ -79,12 +113,14 @@ void colorCalibration(cv::Mat img, cv::Mat& out_img) {
         out_ = min(max(out_, 0), 255.0);
         out_.convertTo(out_, CV_8UC3);
         cvtColor(out_, out_img, COLOR_RGB2BGR);
+        imwrite("calibrated.jpg", out_img);
 
         // 결과 출력
         //imshow("Calibrated img", out_img);
         //waitKey(0);
     }
 }
+
 void AnalysisSkinColor(cv::Mat img, point tl, point tr, point bl, point br, cv::Vec3b& minColor, cv::Vec3b& maxColor)
 {
     cv::Mat blurImg;
@@ -169,14 +205,8 @@ full_object_detection FindLandmark(cv_image<bgr_pixel> cimg)
 
 int main()
 {
-    // 입력 이미지 로드
+    // 스마트폰 이미지 입력
     cv::Mat img = cv::imread("je7.jpg");
-    if (img.empty())
-    {
-        cerr << "Unable to load image!" << endl;
-        return 1;
-    }
-    // 입력 이미지 축소
     cv::Mat resizedImg;
     resize(img, resizedImg, Size(), 0.2, 0.2, INTER_LINEAR);
 
@@ -187,6 +217,16 @@ int main()
     imshow("calibrated image", calibrated);
     waitKey(0);
     std::cout << "Press any key to skip next level." << endl;
+
+    // 웹캠 캡쳐 (색 보정 없음)
+    //Capture();
+    //cv::Mat img = cv::imread("captured_image.jpg");
+
+    if (img.empty())
+    {
+        cerr << "Unable to load image!" << endl;
+        return 1;
+    }
 
     // dlib 이미지 윈도우 생성
     image_window win;
