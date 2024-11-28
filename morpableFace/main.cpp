@@ -1,15 +1,90 @@
 #include <dlib/opencv.h>
-#include <opencv2/highgui/highgui.hpp>
-#include <opencv2/opencv.hpp>
 #include <dlib/image_processing/frontal_face_detector.h>
 #include <dlib/image_processing/render_face_detections.h>
 #include <dlib/image_processing.h>
 #include <dlib/gui_widgets.h>
+
+#include <opencv2/highgui/highgui.hpp>
+#include <opencv2/opencv.hpp>
+#include <opencv2/imgcodecs.hpp>
+#include <opencv2/mcc.hpp>
+
+#include <iostream>
 #include <fstream>
+
+#ifdef _DEBUG
+#pragma comment(lib,"opencv_world470d")
+#else 
+#pragma comment(lib,"opencv_world470")
+#endif
 
 using namespace dlib;
 using namespace std;
+using namespace cv;
+using namespace mcc;
+using namespace ccm;
 
+void colorCalibration(cv::Mat img, cv::Mat& out_img) {
+    cv::Mat imgCopy = img.clone();
+    cv::Ptr<CCheckerDetector> detector = CCheckerDetector::create();
+
+    // 차트 타입 및 탐지
+    TYPECHART chartType = TYPECHART(0); // 0 = Standard chart type
+    int nc = 1; // 최대 차트 수
+    if (!detector->process(img, chartType, nc))
+    {
+        cerr << "Error: Chart detection failed." << endl;
+    }
+    cout << "Chart detection succeeded." << endl;
+
+    std::vector<Ptr<mcc::CChecker>> checkers = detector->getListColorChecker();
+    for (Ptr<mcc::CChecker> checker : checkers)
+    {
+        Ptr<CCheckerDraw> cdraw = CCheckerDraw::create(checker);
+        // 탐지된 차트를 이미지에 그리기
+        // cdraw->draw(imgCopy); 
+        //imshow("imgCopy", imgCopy);
+
+        Mat chartsRGB = checker->getChartsRGB();
+        // chartsRGB 확인
+        if (chartsRGB.empty())
+        {
+            cerr << "Error: chartsRGB is empty. Chart detection may have failed partially." << endl;
+        }
+
+        // src 데이터 준비 및 디버깅
+        Mat src = chartsRGB.col(1).clone().reshape(3, chartsRGB.rows / 3);
+        src.convertTo(src, CV_64F); // double 형식으로 변환
+        src /= 255.0; // [0, 1] 범위로 정규화
+        // cout << "src matrix: " << src << endl;
+
+        // 색 보정 모델(ccm) 생성 및 실행
+        ColorCorrectionModel model1(src, COLORCHECKER_Macbeth);
+        model1.run();
+
+        // CCM 값 출력
+        // Mat ccm = model1.getCCM();
+        // cout << "CCM Matrix: " << ccm << endl;
+
+        // 이미지 캘리브레이션
+        Mat img_;
+        cvtColor(img, img_, COLOR_BGR2RGB);
+        img_.convertTo(img_, CV_64F);
+        img_ /= 255.0;
+
+        Mat calibratedimg = model1.infer(img_);
+
+        // 결과 처리
+        Mat out_ = calibratedimg * 255.0;
+        out_ = min(max(out_, 0), 255.0);
+        out_.convertTo(out_, CV_8UC3);
+        cvtColor(out_, out_img, COLOR_RGB2BGR);
+
+        // 결과 출력
+        //imshow("Calibrated img", out_img);
+        //waitKey(0);
+    }
+}
 void AnalysisSkinColor(cv::Mat img, point tl, point tr, point bl, point br, cv::Vec3b& minColor, cv::Vec3b& maxColor)
 {
     cv::Mat blurImg;
@@ -60,7 +135,7 @@ full_object_detection FindLandmark(cv_image<bgr_pixel> cimg)
     deserialize("shape_predictor_68_face_landmarks.dat") >> pose_model;
 
     // 얼굴 검출
-    std::vector<rectangle> faces = detector(cimg);
+    std::vector<dlib::rectangle> faces = detector(cimg);
 
     // 얼굴 랜드마크 추출
     std::vector<full_object_detection> shapes;
@@ -95,18 +170,29 @@ full_object_detection FindLandmark(cv_image<bgr_pixel> cimg)
 int main()
 {
     // 입력 이미지 로드
-    cv::Mat img = cv::imread("input_image13.jpg");
+    cv::Mat img = cv::imread("je7.jpg");
     if (img.empty())
     {
         cerr << "Unable to load image!" << endl;
         return 1;
     }
+    // 입력 이미지 축소
+    cv::Mat resizedImg;
+    resize(img, resizedImg, Size(), 0.2, 0.2, INTER_LINEAR);
+
+    // 0. 색 보정
+    cv::Mat calibrated;
+    colorCalibration(resizedImg, calibrated);
+    imshow("src image", resizedImg);
+    imshow("calibrated image", calibrated);
+    waitKey(0);
+    std::cout << "Press any key to skip next level." << endl;
 
     // dlib 이미지 윈도우 생성
     image_window win;
 
     // OpenCV의 Mat를 dlib 이미지 형식으로 변환
-    cv_image<bgr_pixel> cimg(img);
+    cv_image<bgr_pixel> cimg(calibrated);
 
     // 1. 랜드마크 검출 및 txt파일 생성
     full_object_detection shape = FindLandmark(cimg);
@@ -135,12 +221,12 @@ int main()
     cv::Vec3b minColor_right = cv::Vec3b(255, 255, 255);
     cv::Vec3b maxColor_right = cv::Vec3b(0, 0, 0);
 
-    AnalysisSkinColor(img, tl_left, tr_left, bl_left, br_left, minColor_left, maxColor_left);
-    AnalysisSkinColor(img, tl_right, tr_right, bl_right, br_right, minColor_right, maxColor_right);
+    AnalysisSkinColor(calibrated, tl_left, tr_left, bl_left, br_left, minColor_left, maxColor_left);
+    AnalysisSkinColor(calibrated, tl_right, tr_right, bl_right, br_right, minColor_right, maxColor_right);
 
     // 양 볼의 컬러 평균
-    cv::Vec3b average_minColor = (minColor_left/2 + minColor_right/2);
-    cv::Vec3b average_maxColor = (maxColor_left/2 + maxColor_right/2);
+    cv::Vec3b average_minColor = (minColor_left / 2 + minColor_right / 2);
+    cv::Vec3b average_maxColor = (maxColor_left / 2 + maxColor_right / 2);
     cout << "average lightest color(BGR): " << average_maxColor << endl;
     cout << "average darkest color(BGR): " << average_minColor << endl;
 
