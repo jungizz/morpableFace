@@ -1,0 +1,757 @@
+﻿  The vcpkg manifest was disabled, but we found a manifest file in C:\Users\se\source\repos\eos\. You may want to enable vcpkg manifests in your properties page or pass /p:VcpkgEnableManifest=true to the msbuild invocation.
+  fit-model-multi.cpp
+C:\Users\se\source\repos\eos\3rdparty\eigen\Eigen\src\Core\arch\Default\Half.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\3rdparty\eigen\Eigen\src\Core\arch\Default\BFloat16.h(1,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\3rdparty\eigen\Eigen\src\Core\arch\Default\GenericPacketMathFunctions.h(676,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\3rdparty\eigen\Eigen\src\Core\products\GeneralBlockPanelKernel.h(2063,1): warning C4819: The file contains a character that cannot be represented in the current code page (949). Save the file in Unicode format to prevent data loss
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\fitting\linear_shape_fitting.hpp(114,103): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\fitting\linear_shape_fitting.hpp(114,34): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\fitting\linear_shape_fitting.hpp(221,103): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\fitting\linear_shape_fitting.hpp(221,34): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\fitting\RenderingParameters.hpp(254,74): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\fitting\RenderingParameters.hpp(254,38): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\fitting\RenderingParameters.hpp(327,46): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\fitting\RenderingParameters.hpp(327,39): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\fitting\RenderingParameters.hpp(327,31): warning C4244: 'argument': conversion from 'int' to 'const float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\core\image\resize.hpp(73,24): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\core\image\resize.hpp(75,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\core\image\resize.hpp(90,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\core\image\resize.hpp(90,36): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\core\image\resize.hpp(91,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\core\image\resize.hpp(91,36): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\core\image\resize.hpp(146,24): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\core\image\resize.hpp(148,28): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\core\image\resize.hpp(163,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\core\image\resize.hpp(163,36): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\core\image\resize.hpp(164,43): warning C4244: 'initializing': conversion from 'float' to 'int', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\core\image\resize.hpp(164,36): warning C4244: 'initializing': conversion from 'float' to 'const int', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\texturing.hpp(70,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\texturing.hpp(70,20): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\texturing.hpp(71,31): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\texturing.hpp(71,20): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\texturing.hpp(75,88): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\texturing.hpp(75,28): warning C4244: 'argument': conversion from 'int' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\texturing.hpp(75,22): warning C4244: 'initializing': conversion from 'float' to 'unsigned char', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\texturing.hpp(74,38): warning C4244: 'initializing': conversion from 'float' to 'const unsigned char', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(63,78): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(63,78): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(63,78): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(63,78): warning C4244:             _Tp=int
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(63,78): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(63,70): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(63,70): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(63,70): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(63,70): warning C4244:             _Tp=int
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(63,70): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(63,51): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(63,51): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(63,51): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(63,51): warning C4244:             _Tp=int
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(63,51): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(63,43): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(63,43): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(63,43): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(63,43): warning C4244:             _Tp=int
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(63,43): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(64,78): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(64,78): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(64,78): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(64,78): warning C4244:             _Tp=int
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(64,78): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(64,70): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(64,70): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(64,70): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(64,70): warning C4244:             _Tp=int
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(64,70): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(64,51): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(64,51): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(64,51): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(64,51): warning C4244:             _Tp=int
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(64,51): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(64,43): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(64,43): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(64,43): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(64,43): warning C4244:             _Tp=int
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(64,43): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(65,78): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(65,78): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(65,78): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(65,78): warning C4244:             _Tp=int
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(65,78): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(65,70): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(65,70): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(65,70): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(65,70): warning C4244:             _Tp=int
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(65,70): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(65,51): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(65,51): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(65,51): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(65,51): warning C4244:             _Tp=int
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(65,51): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(65,43): warning C4244: 'argument': conversion from 'const float' to '_Tp', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(65,43): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(65,43): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(65,43): warning C4244:             _Tp=int
+C:\Users\se\source\repos\eos\include\eos\render\opencv\draw_utils.hpp(65,43): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\fitting\closest_edge_fitting.hpp(190,29): warning C4267: 'argument': conversion from 'size_t' to 'const int', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  C:\Users\se\source\repos\eos\include\eos\fitting\closest_edge_fitting.hpp(190,29):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\se\source\repos\eos\include\eos\fitting\closest_edge_fitting.hpp(321,15):
+  	see reference to class template instantiation 'eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>' being compiled
+  	C:\Users\se\source\repos\eos\include\eos\fitting\closest_edge_fitting.hpp(182,5):
+  	while compiling class template member function 'eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>::KDTreeVectorOfVectorsAdaptor(const int,const VectorOfVectorsType &,const int)'
+          with
+          [
+              VectorOfVectorsType=std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>
+          ]
+  		C:\Users\se\source\repos\eos\include\eos\fitting\closest_edge_fitting.hpp(321,19):
+  		see the first reference to 'eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>::KDTreeVectorOfVectorsAdaptor' in 'eos::fitting::find_occluding_edge_correspondences'
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(180,17): warning C4244: '=': conversion from 'const double' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(180,17):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\se\source\repos\eos\include\eos\render\texture_extraction.hpp(116,23):
+  	see reference to function template instantiation 'Eigen::Matrix<float,4,1,0,4,1> eos::render::detail::divide_by_w<float>(const Eigen::Matrix<float,4,1,0,4,1> &)' being compiled
+  
+C:\Users\se\source\repos\eos\include\eos\render\transforms.hpp(72,42): warning C4244: 'initializing': conversion from 'double' to 'T', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\transforms.hpp(72,42): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\transforms.hpp(72,42): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\transforms.hpp(72,42): warning C4244:             T=float
+C:\Users\se\source\repos\eos\include\eos\render\transforms.hpp(72,42): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  C:\Users\se\source\repos\eos\include\eos\render\transforms.hpp(72,42):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\se\source\repos\eos\include\eos\render\texture_extraction.hpp(119,13):
+  	see reference to function template instantiation 'Eigen::Matrix<float,2,1,0,2,1> eos::render::clip_to_screen_space<float>(const T,const T,int,int)' being compiled
+          with
+          [
+              T=float
+          ]
+  
+C:\Users\se\source\repos\eos\include\eos\render\transforms.hpp(72,18): warning C4244: 'initializing': conversion from 'double' to 'const T', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\transforms.hpp(72,18): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\transforms.hpp(72,18): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\transforms.hpp(72,18): warning C4244:             T=float
+C:\Users\se\source\repos\eos\include\eos\render\transforms.hpp(72,18): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\transforms.hpp(74,23): warning C4244: 'initializing': conversion from 'double' to 'T', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\transforms.hpp(74,23): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\transforms.hpp(74,23): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\transforms.hpp(74,23): warning C4244:             T=float
+C:\Users\se\source\repos\eos\include\eos\render\transforms.hpp(74,23): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\transforms.hpp(73,18): warning C4244: 'initializing': conversion from 'double' to 'const T', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\transforms.hpp(73,18): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\transforms.hpp(73,18): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\transforms.hpp(73,18): warning C4244:             T=float
+C:\Users\se\source\repos\eos\include\eos\render\transforms.hpp(73,18): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\Rasterizer.hpp(123,80): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  C:\Users\se\source\repos\eos\include\eos\render\Rasterizer.hpp(123,80):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\se\source\repos\eos\include\eos\render\texture_extraction.hpp(192,34):
+  	see reference to function template instantiation 'void eos::render::Rasterizer<eos::render::ExtractionFragmentShader>::raster_triangle<double>(const eos::render::detail::Vertex<double> &,const eos::render::detail::Vertex<double> &,const eos::render::detail::Vertex<double> &,const std::optional<eos::render::Texture> &)' being compiled
+  		C:\Users\se\source\repos\eos\include\eos\render\texture_extraction.hpp(192,50):
+  		see the first reference to 'eos::render::Rasterizer<eos::render::ExtractionFragmentShader>::raster_triangle' in 'eos::render::extract_texture'
+  
+C:\Users\se\source\repos\eos\include\eos\render\Rasterizer.hpp(123,59): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\Rasterizer.hpp(126,80): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\Rasterizer.hpp(126,59): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\Rasterizer.hpp(129,80): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\Rasterizer.hpp(129,59): warning C4244: 'argument': conversion from 'const double' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\Rasterizer.hpp(199,76): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\Rasterizer.hpp(199,69): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\Rasterizer.hpp(221,36): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\Rasterizer.hpp(221,33): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\Rasterizer.hpp(227,36): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\Rasterizer.hpp(227,33): warning C4244: 'argument': conversion from 'const float' to 'int', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(157,51): warning C4244: '=': conversion from 'const T' to '_Ty', possible loss of data
+C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(157,51): warning C4244:         with
+C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(157,51): warning C4244:         [
+C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(157,51): warning C4244:             T=double
+C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(157,51): warning C4244:         ]
+C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(157,51): warning C4244:         and
+C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(157,51): warning C4244:         [
+C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(157,51): warning C4244:             _Ty=float
+C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(157,51): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(157,51):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\se\source\repos\eos\include\eos\fitting\closest_edge_fitting.hpp(332,19):
+  	see reference to function template instantiation 'bool nanoflann::KDTreeSingleIndexAdaptor<nanoflann::L2_Adaptor<T,DataSource,T,IndexType>,eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,2,unsigned __int64>::findNeighbors<nanoflann::KNNResultSet<double,size_t,size_t>>(RESULTSET &,const float *,const nanoflann::SearchParams &) const' being compiled
+          with
+          [
+              T=float,
+              DataSource=eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,
+              IndexType=uint32_t,
+              RESULTSET=nanoflann::KNNResultSet<double,size_t,size_t>
+          ]
+  		C:\Users\se\source\repos\eos\include\eos\fitting\closest_edge_fitting.hpp(332,34):
+  		see the first reference to 'nanoflann::KDTreeSingleIndexAdaptor<nanoflann::L2_Adaptor<T,DataSource,T,IndexType>,eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,2,unsigned __int64>::findNeighbors' in 'eos::fitting::find_occluding_edge_correspondences'
+          with
+          [
+              T=float,
+              DataSource=eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,
+              IndexType=uint32_t
+          ]
+  	C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(1694,9):
+  	see reference to function template instantiation 'void nanoflann::assign<std::array<T,2>,double>(Container &,const size_t,const double &)' being compiled
+          with
+          [
+              T=float,
+              Container=std::array<float,2>
+          ]
+  
+C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(1863,37): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(1863,37):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(1696,9):
+  	see reference to function template instantiation 'bool nanoflann::KDTreeSingleIndexAdaptor<nanoflann::L2_Adaptor<T,DataSource,T,IndexType>,eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,2,unsigned __int64>::searchLevel<RESULTSET>(RESULTSET &,const float *,nanoflann::KDTreeBaseClass<nanoflann::KDTreeSingleIndexAdaptor<nanoflann::L2_Adaptor<T,DataSource,T,IndexType>,eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,2,unsigned __int64>,Distance,DatasetAdaptor,2,index_t>::Node *const ,float,std::array<T,2> &,const float) const' being compiled
+          with
+          [
+              T=float,
+              DataSource=eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,
+              IndexType=uint32_t,
+              RESULTSET=nanoflann::KNNResultSet<double,size_t,size_t>,
+              Distance=nanoflann::L2_Adaptor<float,eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,float,uint32_t>,
+              DatasetAdaptor=eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,
+              index_t=size_t
+          ]
+  
+C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(1869,33): warning C4267: 'argument': conversion from 'size_t' to 'const IndexType', possible loss of data
+C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(1869,33): warning C4267:         with
+C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(1869,33): warning C4267:         [
+C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(1869,33): warning C4267:             IndexType=uint32_t
+C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(1869,33): warning C4267:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(71,25): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(71,25): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(71,25): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(71,25): warning C4244:             _Ty=double
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(71,25): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(71,25):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\se\source\repos\eos\include\eos\render\texture_extraction.hpp(192,34):
+  	see reference to function template instantiation 'void eos::render::Rasterizer<eos::render::ExtractionFragmentShader>::raster_triangle<double>(const eos::render::detail::Vertex<double> &,const eos::render::detail::Vertex<double> &,const eos::render::detail::Vertex<double> &,const std::optional<eos::render::Texture> &)' being compiled
+  		C:\Users\se\source\repos\eos\include\eos\render\texture_extraction.hpp(192,50):
+  		see the first reference to 'eos::render::Rasterizer<eos::render::ExtractionFragmentShader>::raster_triangle' in 'eos::render::extract_texture'
+  	C:\Users\se\source\repos\eos\include\eos\render\Rasterizer.hpp(71,42):
+  	see reference to function template instantiation 'eos::core::Rect<int> eos::render::detail::calculate_clipped_bounding_box<double>(const Eigen::Matrix<double,2,1,0,2,1> &,const Eigen::Matrix<double,2,1,0,2,1> &,const Eigen::Matrix<double,2,1,0,2,1> &,int,int)' being compiled
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(71,20): warning C4244: 'initializing': conversion from 'const _Ty' to 'const int', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(71,20): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(71,20): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(71,20): warning C4244:             _Ty=double
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(71,20): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(72,25): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(72,25): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(72,25): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(72,25): warning C4244:             _Ty=double
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(72,25): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(72,20): warning C4244: 'initializing': conversion from 'const _Ty' to 'const int', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(72,20): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(72,20): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(72,20): warning C4244:             _Ty=double
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(72,20): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(73,25): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(73,25): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(73,25): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(73,25): warning C4244:             _Ty=double
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(73,25): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(73,20): warning C4244: 'initializing': conversion from 'const _Ty' to 'const int', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(73,20): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(73,20): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(73,20): warning C4244:             _Ty=double
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(73,20): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(74,25): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(74,25): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(74,25): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(74,25): warning C4244:             _Ty=double
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(74,25): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(74,20): warning C4244: 'initializing': conversion from 'const _Ty' to 'const int', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(74,20): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(74,20): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(74,20): warning C4244:             _Ty=double
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(74,20): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\plane.hpp(75,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  C:\Users\se\source\repos\eos\include\eos\render\detail\plane.hpp(75,21):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\se\source\repos\eos\include\eos\render\Rasterizer.hpp(89,39):
+  	see reference to function template instantiation 'eos::render::detail::plane::plane<double>(const Eigen::Matrix<double,3,1,0,3,1> &,const Eigen::Matrix<double,3,1,0,3,1> &,const Eigen::Matrix<double,3,1,0,3,1> &)' being compiled
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\plane.hpp(76,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\plane.hpp(77,21): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\plane.hpp(78,13): warning C4244: '=': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(71,25): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(71,25): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(71,25): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(71,25): warning C4244:             _Ty=float
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(71,25): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(71,25):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\se\source\repos\eos\include\eos\render\render.hpp(63,29):
+  	see reference to function template instantiation 'eos::core::Image4u eos::render::SoftwareRenderer<eos::render::VertexShader,eos::render::VertexColoringFragmentShader>::render<float>(const eos::core::Mesh &,const Eigen::Matrix<float,4,4,0,4,4> &,const Eigen::Matrix<float,4,4,0,4,4> &,const std::optional<eos::render::Texture> &)' being compiled
+  		C:\Users\se\source\repos\eos\include\eos\render\render.hpp(63,5):
+  		see the first reference to 'eos::render::SoftwareRenderer<eos::render::VertexShader,eos::render::VertexColoringFragmentShader>::render' in 'eos::render::render'
+  	C:\Users\se\source\repos\eos\include\eos\render\SoftwareRenderer.hpp(230,50):
+  	see reference to function template instantiation 'eos::core::Rect<int> eos::render::detail::calculate_clipped_bounding_box<float>(const Eigen::Matrix<float,2,1,0,2,1> &,const Eigen::Matrix<float,2,1,0,2,1> &,const Eigen::Matrix<float,2,1,0,2,1> &,int,int)' being compiled
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(71,20): warning C4244: 'initializing': conversion from 'const _Ty' to 'const int', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(71,20): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(71,20): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(71,20): warning C4244:             _Ty=float
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(71,20): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(72,25): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(72,25): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(72,25): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(72,25): warning C4244:             _Ty=float
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(72,25): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(72,20): warning C4244: 'initializing': conversion from 'const _Ty' to 'const int', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(72,20): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(72,20): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(72,20): warning C4244:             _Ty=float
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(72,20): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(73,25): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(73,25): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(73,25): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(73,25): warning C4244:             _Ty=float
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(73,25): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(73,20): warning C4244: 'initializing': conversion from 'const _Ty' to 'const int', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(73,20): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(73,20): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(73,20): warning C4244:             _Ty=float
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(73,20): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(74,25): warning C4244: 'initializing': conversion from 'const _Ty' to 'int', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(74,25): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(74,25): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(74,25): warning C4244:             _Ty=float
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(74,25): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(74,20): warning C4244: 'initializing': conversion from 'const _Ty' to 'const int', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(74,20): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(74,20): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(74,20): warning C4244:             _Ty=float
+C:\Users\se\source\repos\eos\include\eos\render\detail\utils.hpp(74,20): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\Rasterizer.hpp(186,63): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  C:\Users\se\source\repos\eos\include\eos\render\Rasterizer.hpp(186,63):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\se\source\repos\eos\include\eos\render\SoftwareRenderer.hpp(360,23):
+  	see reference to function template instantiation 'void eos::render::Rasterizer<FragmentShaderType>::raster_triangle<float>(const eos::render::detail::Vertex<float> &,const eos::render::detail::Vertex<float> &,const eos::render::detail::Vertex<float> &,const std::optional<eos::render::Texture> &)' being compiled
+          with
+          [
+              FragmentShaderType=eos::render::VertexColoringFragmentShader
+          ]
+  
+C:\Users\se\source\repos\eos\include\eos\render\Rasterizer.hpp(186,57): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\Rasterizer.hpp(186,50): warning C4244: 'argument': conversion from 'double' to 'const float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(572,58): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(572,58):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\se\source\repos\eos\include\eos\fitting\closest_edge_fitting.hpp(322,9):
+  	see reference to class template instantiation 'nanoflann::KDTreeSingleIndexAdaptor<nanoflann::L2_Adaptor<T,DataSource,T,IndexType>,eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,2,unsigned __int64>' being compiled
+          with
+          [
+              T=float,
+              DataSource=eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,
+              IndexType=uint32_t
+          ]
+  	C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(1516,14):
+  	see reference to class template instantiation 'nanoflann::KDTreeBaseClass<nanoflann::KDTreeSingleIndexAdaptor<nanoflann::L2_Adaptor<T,DataSource,T,IndexType>,eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,2,unsigned __int64>,Distance,DatasetAdaptor,2,index_t>' being compiled
+          with
+          [
+              T=float,
+              DataSource=eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,
+              IndexType=uint32_t,
+              Distance=nanoflann::L2_Adaptor<float,eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,float,uint32_t>,
+              DatasetAdaptor=eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,
+              index_t=size_t
+          ]
+  	C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(1012,1):
+  	see reference to class template instantiation 'nanoflann::L2_Adaptor<T,DataSource,T,IndexType>' being compiled
+          with
+          [
+              T=float,
+              DataSource=eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,
+              IndexType=uint32_t
+          ]
+  	C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(559,18):
+  	while compiling class template member function 'float nanoflann::L2_Adaptor<T,DataSource,T,IndexType>::evalMetric(const T *,const IndexType,size_t,float) const'
+          with
+          [
+              T=float,
+              DataSource=eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,
+              IndexType=uint32_t
+          ]
+  		C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(1868,42):
+  		see the first reference to 'nanoflann::L2_Adaptor<T,DataSource,T,IndexType>::evalMetric' in 'nanoflann::KDTreeSingleIndexAdaptor<nanoflann::L2_Adaptor<T,DataSource,T,IndexType>,eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,2,unsigned __int64>::searchLevel'
+          with
+          [
+              T=float,
+              DataSource=eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,
+              IndexType=uint32_t
+          ]
+  		C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(1696,20):
+  		see the first reference to 'nanoflann::KDTreeSingleIndexAdaptor<nanoflann::L2_Adaptor<T,DataSource,T,IndexType>,eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,2,unsigned __int64>::searchLevel' in 'nanoflann::KDTreeSingleIndexAdaptor<nanoflann::L2_Adaptor<T,DataSource,T,IndexType>,eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,2,unsigned __int64>::findNeighbors'
+          with
+          [
+              T=float,
+              DataSource=eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,
+              IndexType=uint32_t
+          ]
+  		C:\Users\se\source\repos\eos\include\eos\fitting\closest_edge_fitting.hpp(332,34):
+  		see the first reference to 'nanoflann::KDTreeSingleIndexAdaptor<nanoflann::L2_Adaptor<T,DataSource,T,IndexType>,eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,2,unsigned __int64>::findNeighbors' in 'eos::fitting::find_occluding_edge_correspondences'
+          with
+          [
+              T=float,
+              DataSource=eos::fitting::KDTreeVectorOfVectorsAdaptor<std::vector<Eigen::Vector2f,std::allocator<Eigen::Vector2f>>,float,2,nanoflann::metric_L2,size_t>,
+              IndexType=uint32_t
+          ]
+  
+C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(574,58): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(576,58): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(578,58): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\3rdparty\nanoflann\include\nanoflann.hpp(589,58): warning C4267: 'argument': conversion from 'size_t' to 'int', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,61): warning C4244: 'initializing': conversion from 'const double' to '_Ty', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,61): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,61): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,61): warning C4244:             _Ty=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,61): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xutility(255,61):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\se\source\repos\eos\include\eos\fitting\contour_correspondence.hpp(361,25):
+  	see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::emplace_back<const double&>(const double &)' being compiled
+          with
+          [
+              _Ty=float
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(862,24):
+  	see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_one_at_back<const double&>(const double &)' being compiled
+          with
+          [
+              _Ty=float
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(780,20):
+  	see reference to function template instantiation '_Ty &std::vector<_Ty,std::allocator<_Ty>>::_Emplace_back_with_unused_capacity<const double&>(const double &)' being compiled
+          with
+          [
+              _Ty=float
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(795,13):
+  	see reference to function template instantiation 'void std::_Construct_in_place<float,const double&>(_Ty &,const double &) noexcept' being compiled
+          with
+          [
+              _Ty=float
+          ]
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,82): warning C4244: 'initializing': conversion from 'const double' to '_Objty', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,82): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,82): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,82): warning C4244:             _Objty=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,82): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,82):
+  the template instantiation context (the oldest one first) is
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(783,17):
+  	see reference to function template instantiation 'float *std::vector<float,std::allocator<float>>::_Emplace_reallocate<const double&>(float *const ,const double &)' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(834,23):
+  	see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,const double&>(_Alloc &,_Objty *const ,const double &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<float>,
+              _Ty=float,
+              _Objty=float
+          ]
+  
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(135,24): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(135,24): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(135,24): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(135,24): warning C4244:             T=double
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(135,24): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(135,24):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\se\source\repos\eos\include\eos\render\Rasterizer.hpp(220,58):
+  	see reference to function template instantiation 'Eigen::Matrix<double,4,1,0,4,1> eos::render::ExtractionFragmentShader::shade_triangle_pixel<double>(int,int,const eos::render::detail::Vertex<double> &,const eos::render::detail::Vertex<double> &,const eos::render::detail::Vertex<double> &,const Eigen::Matrix<double,3,1,0,3,1> &,const std::optional<eos::render::Texture> &,float,float,float,float)' being compiled
+  	C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(179,39):
+  	see reference to function template instantiation 'Eigen::Matrix<double,3,1,0,3,1> eos::render::compute_inverse_perspectively_correct_lambda<double>(const Eigen::Matrix<double,3,1,0,3,1> &,const T &,const T &,const T &)' being compiled
+          with
+          [
+              T=double
+          ]
+  
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(135,20): warning C4244: 'initializing': conversion from 'T' to 'const float', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(135,20): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(135,20): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(135,20): warning C4244:             T=double
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(135,20): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(136,24): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(136,24): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(136,24): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(136,24): warning C4244:             T=double
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(136,24): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(136,20): warning C4244: 'initializing': conversion from 'T' to 'const float', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(136,20): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(136,20): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(136,20): warning C4244:             T=double
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(136,20): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(137,24): warning C4244: 'initializing': conversion from 'T' to 'float', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(137,24): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(137,24): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(137,24): warning C4244:             T=double
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(137,24): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(137,20): warning C4244: 'initializing': conversion from 'T' to 'const float', possible loss of data
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(137,20): warning C4244:         with
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(137,20): warning C4244:         [
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(137,20): warning C4244:             T=double
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(137,20): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(139,55): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(139,19): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\texturing.hpp(102,42): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  C:\Users\se\source\repos\eos\include\eos\render\detail\texturing.hpp(102,42):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\se\source\repos\eos\include\eos\render\FragmentShader.hpp(190,21):
+  	see reference to function template instantiation 'Eigen::Matrix<double,3,1,0,3,1> eos::render::detail::tex2d_linear<double>(const Eigen::Matrix<double,2,1,0,2,1> &,unsigned char,const eos::render::Texture &)' being compiled
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\texturing.hpp(102,23): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\texturing.hpp(103,41): warning C4244: 'initializing': conversion from 'double' to 'float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Users\se\source\repos\eos\include\eos\render\detail\texturing.hpp(103,22): warning C4244: 'initializing': conversion from 'double' to 'const float', possible loss of data
+  (compiling source file 'fit-model-multi.cpp')
+  
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,82): warning C4244: 'initializing': conversion from 'double' to '_Objty', possible loss of data
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,82): warning C4244:         with
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,82): warning C4244:         [
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,82): warning C4244:             _Objty=float
+C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,82): warning C4244:         ]
+  (compiling source file 'fit-model-multi.cpp')
+  C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(723,82):
+  the template instantiation context (the oldest one first) is
+  	C:\Users\se\source\repos\eos\include\eos\morphablemodel\PcaModel.hpp(192,46):
+  	see reference to function template instantiation 'std::vector<float,std::allocator<float>>::vector<std::_Vector_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>,0>(_Iter,_Iter,const _Alloc &)' being compiled
+          with
+          [
+              _Ty=double,
+              _Iter=std::_Vector_iterator<std::_Vector_val<std::_Simple_types<double>>>,
+              _Alloc=std::allocator<float>
+          ]
+  		C:\Users\se\source\repos\eos\include\eos\morphablemodel\PcaModel.hpp(192,46):
+  		see the first reference to 'std::vector<float,std::allocator<float>>::vector' in 'eos::morphablemodel::PcaModel::draw_sample'
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(635,13):
+  	see reference to function template instantiation 'void std::vector<float,std::allocator<float>>::_Construct_n<double*,double*>(const unsigned __int64,double *&&,double *&&)' being compiled
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\vector(2082,36):
+  	see reference to function template instantiation 'float *std::_Uninitialized_copy<_Ty,_Ty,std::allocator<float>>(_InIt,_Se,float *,_Alloc &)' being compiled
+          with
+          [
+              _Ty=double *,
+              _InIt=double *,
+              _Se=double *,
+              _Alloc=std::allocator<float>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(1855,17):
+  	see reference to function template instantiation 'void std::_Uninitialized_backout_al<_Alloc>::_Emplace_back<double&>(double &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<float>
+          ]
+  	C:\Program Files\Microsoft Visual Studio\2022\Community\VC\Tools\MSVC\14.38.33130\include\xmemory(1801,35):
+  	see reference to function template instantiation 'void std::_Default_allocator_traits<_Alloc>::construct<_Ty,double&>(_Alloc &,_Objty *const ,double &)' being compiled
+          with
+          [
+              _Alloc=std::allocator<float>,
+              _Ty=float,
+              _Objty=float
+          ]
+  
+     Creating library C:/Users/se/source/repos/eos/examples/Debug/fit-model-multi.lib and object C:/Users/se/source/repos/eos/examples/Debug/fit-model-multi.exp
+  fit-model-multi.vcxproj -> C:\Users\se\source\repos\eos\examples\Debug\fit-model-multi.exe
+  'pwsh.exe'은(는) 내부 또는 외부 명령, 실행할 수 있는 프로그램, 또는
+  배치 파일이 아닙니다.

@@ -1,0 +1,22 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
+    <LocalDebuggerCommandArguments>--image "C:/Users/se/source/repos/input.jpg" --landmarks "C:/Users/se/source/repos/landmarks.txt" --output "C:/Users/se/source/repos/output"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='MinSizeRel|x64'">
+    <LocalDebuggerCommandArguments>--image "C:\Users\se\source\repos\example12.jpg" --landmarks "C:\Users\se\source\repos\landmarks12.txt" --output "C:\Users\se\source\repos\output"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
+    <LocalDebuggerCommandArguments>--image "C:\Users\se\source\repos\example12.jpg" --landmarks "C:\Users\se\source\repos\landmarks12.txt" --output "C:\Users\se\source\repos\output"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='RelWithDebInfo|x64'">
+    <LocalDebuggerCommandArguments>--image "C:\Users\se\source\repos\example12.jpg" --landmarks "C:\Users\se\source\repos\landmarks12.txt" --output "C:\Users\se\source\repos\output"</LocalDebuggerCommandArguments>
+    <DebuggerFlavor>WindowsLocalDebugger</DebuggerFlavor>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ShowAllFiles>false</ShowAllFiles>
+  </PropertyGroup>
+</Project>

@@ -1,0 +1,11 @@
+# CMake generation dependency list for this directory.
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindBoost.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageHandleStandardArgs.cmake
+C:/Program Files/CMake/share/cmake-3.31/Modules/FindPackageMessage.cmake
+C:/Program Files/opencv/build/OpenCVConfig-version.cmake
+C:/Program Files/opencv/build/OpenCVConfig.cmake
+C:/Program Files/opencv/build/x64/vc16/lib/OpenCVConfig.cmake
+C:/Program Files/opencv/build/x64/vc16/lib/OpenCVModules-debug.cmake
+C:/Program Files/opencv/build/x64/vc16/lib/OpenCVModules-release.cmake
+C:/Program Files/opencv/build/x64/vc16/lib/OpenCVModules.cmake
+C:/Users/se/source/repos/eos/examples/CMakeLists.txt
