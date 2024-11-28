@@ -5,7 +5,7 @@
 한다. 이 서비스는 컴퓨터 비전과 AI, 3D 렌더링 기술을 활용
 하여 비용 효율적이고 신뢰할 수 있는 컨설팅 경험을 제공한다.
 
-- main branch: 입력 이미지의 색 보정 및 랜드마크 탐지
+- main branch: 입력 이미지의 색 보정/분석 및 랜드마크 탐지
 
 ![image](https://github.com/user-attachments/assets/67c763d4-4ef2-40c4-8c21-cd72c213ed03)
 
