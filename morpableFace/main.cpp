@@ -271,8 +271,8 @@ int main()
 
     ofstream faceColorFile("faceColor.txt");
     if (faceColorFile.is_open()) {
-        faceColorFile << average_maxColor << endl;
-        faceColorFile << average_minColor << endl;
+        faceColorFile << "[" << to_string(average_maxColor[2]) << "," << to_string(average_maxColor[1]) << "," << to_string(average_maxColor[0]) << "]" << endl;
+        faceColorFile << "[" << to_string(average_minColor[2]) << "," << to_string(average_minColor[1]) << "," << to_string(average_minColor[0]) << "]" << endl;
     }faceColorFile.close();
 
     // 결과 표시
