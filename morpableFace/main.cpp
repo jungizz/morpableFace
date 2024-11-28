@@ -182,6 +182,7 @@ full_object_detection FindLandmark(cv_image<bgr_pixel> cimg)
 
     // 랜드마크 정보를 텍스트 파일로 저장
     ofstream landmarksFile("landmarks.txt");
+    landmarksFile << "version: 1\nn_points: 68\n{\n";
     if (landmarksFile.is_open())
     {
         for (const auto& shape : shapes)
@@ -190,7 +191,7 @@ full_object_detection FindLandmark(cv_image<bgr_pixel> cimg)
             {
                 landmarksFile << shape.part(j).x() << " " << shape.part(j).y() << endl; // x, y 좌표 저장
             }
-            landmarksFile << "-----" << endl; // 각 얼굴 랜드마크 구분
+            landmarksFile << "}" << endl; // 각 얼굴 랜드마크 구분
         }
         landmarksFile.close();
         cout << "Landmarks saved to landmarks.txt" << endl;
@@ -238,12 +239,12 @@ int main()
     full_object_detection shape = FindLandmark(cimg);
 
     // 얼굴형 분석을 위한 랜드마크 (1~17번)
-    std::vector<point> faceShapePoints;
-    cout << "Landmarks for face shape (1~17)" << endl;
-    for (int i = 0; i < 17; i++) {
-        faceShapePoints.push_back(shape.part(i));
-        cout << shape.part(i) << endl;
-    }
+    ofstream faceShapePointsFile("faceLandmark.txt");
+    if (faceShapePointsFile.is_open()) {
+        for (int i = 0; i < 17; i++) {
+            faceShapePointsFile << shape.part(i) << endl;
+        }
+    }faceShapePointsFile.close();
 
     // 2. 컬러 분석 영역 추출
     point tl_left, tr_left, bl_left, br_left;
@@ -267,8 +268,12 @@ int main()
     // 양 볼의 컬러 평균
     cv::Vec3b average_minColor = (minColor_left / 2 + minColor_right / 2);
     cv::Vec3b average_maxColor = (maxColor_left / 2 + maxColor_right / 2);
-    cout << "average lightest color(BGR): " << average_maxColor << endl;
-    cout << "average darkest color(BGR): " << average_minColor << endl;
+
+    ofstream faceColorFile("faceColor.txt");
+    if (faceColorFile.is_open()) {
+        faceColorFile << average_maxColor << endl;
+        faceColorFile << average_minColor << endl;
+    }faceColorFile.close();
 
     // 결과 표시
     win.set_image(cimg);
